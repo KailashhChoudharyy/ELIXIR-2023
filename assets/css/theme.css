@@ -65,6 +65,22 @@
 /* font-family: 'Roboto Slab', serif; */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
 
+.elixir-nav {
+    padding: 0;
+    width: 20%;
+    position: relative;
+    top: 40px;
+
+}
+
+.acm-nav {
+    width: 200%;
+}
+
+.ticket-btn{
+    color: #F34452;
+}
+
 /* 1.2 - Preloader
 /* ========================================================================== */
 
@@ -231,7 +247,7 @@ body.boxed {
 }
 .wide .page-section.color,
 .boxed .page-section.color > .container {
-    background-color: #F34452;
+    background-color: #0d1d31;
     color: #ffffff;
 }
 .wide .page-section.image,
@@ -239,7 +255,7 @@ body.boxed {
     padding-top: 100px;
     padding-bottom: 100px;
     background-attachment: fixed;
-    background-image: url('../img/custom/backdrop.jpg');
+    background-image: url('');
     background-size: cover !important;
     background-position: 50% 0 !important;
     background-repeat: no-repeat;
@@ -254,14 +270,22 @@ body.boxed {
     position: absolute;
     top: 0; left: 0; right: 0;
     width: 100%; height: 100%;
-    background: transparent url("../img/overlay.png") 50% 0 repeat;
+    /* background: transparent url("../img/overlay.png") 50% 0 repeat; */
 }
+/* Main hero section background img */
 .page-section.background-img-slider {position: relative;}
 .wide .page-section.background-img-slider,
 .boxed .page-section.background-img-slider > .container {
-    background: transparent url("../img/custom/backdrop.jpg") 50% 0 repeat fixed !important;
+    background: transparent url("/ELIXIR ASSETS/Quantamania-bg.jpg") 50% 0 repeat fixed !important;
     background-position: 50% 0 !important;
     background-size: cover !important;
+}
+
+.bg-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 .wide .page-section.background-img-slider > .container {
     width: 100%;
@@ -574,8 +598,8 @@ hr.page-divider.small:after {
 }
 .btn-theme {
     color: #ffffff;
-    background-color: #F34452;
-    border-color: #F34452;
+    background-color: #0d1d31;
+    border-color: #0d1d31;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -591,9 +615,9 @@ hr.page-divider.small:after {
     color: #ffffff;
 }
 .color .btn-theme {
-    color: #F34452;
-    background-color: #ffffff;
-    border-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
 }
 .color .btn-theme:hover {
     background-color: #435469;
@@ -740,7 +764,7 @@ textarea {
 .boxed .header > .container {
     background-color: transparent;
     position: relative;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 40px;
 }
 .sub-page .header {
@@ -788,7 +812,7 @@ textarea {
     font-weight: bold;
     margin-top: -12px;
 }
-.logo a {color: #ffffff; display: inline-block; line-height: 2em;}
+.logo a {color: #ffffff; display: inline-block; line-height: 0.5em;}
 .logo a:hover {color: #F34452;}
 .logo a .logo-hex {background-color: #F34452;}
 .logo a:hover .logo-hex {background-color: #ffffff;}
@@ -856,6 +880,7 @@ textarea {
 /* 2.3 - Navigation / superfish skin
 /* ========================================================================== */
 
+
 .navigation {float: right;}
 
 /* SUPERFISH ESSENTIAL STYLES */
@@ -873,10 +898,10 @@ textarea {
 
 /* SUPERFISH THEME SKIN */
 
-.sf-menu {margin-right: -1em; font-size: 14px; font-weight: 300; text-transform: uppercase;}
+.sf-menu {margin-right: -1em; font-size: 15px; font-weight: 700; text-transform: uppercase;}
 .sf-menu.nav > li > a:hover, /* bs3 reset */
 .sf-menu.nav > li > a:focus /* bs3 reset */ {background-color: transparent;}
-.sf-menu.nav > li > a, /*bs3 reset */ .sf-menu a {padding: 10px 15px;}
+.sf-menu.nav > li > a, /*bs3 reset */ .sf-menu a {padding: 15px 15px;}
 
 .sf-menu a {color: #ffffff;}
 .sf-menu a:hover {color: #ffffff;}
@@ -1452,6 +1477,9 @@ textarea {
     width: 100%;
     left: 0; bottom: 0;
     z-index: 11;
+}
+.event-info{
+    padding-bottom: 3%;
 }
 @media (max-width: 767px) {
     .event-description {
@@ -2818,7 +2846,8 @@ div.pp_overlay {
     line-height: 30px;
 }
 .container.gmap-background .on-gmap.color {
-    background-color: #F34452;
+    background: rgb(2,0,36);
+    background: linear-gradient(60deg, rgba(2,0,36,0.8057816876750701) 25%, rgba(8,101,144,1) 45%, rgba(0,212,255,1) 100%);
     color: #fefefe;
 }
 
