@@ -78,7 +78,7 @@
 }
 
 .ticket-btn{
-    color: #F34452;
+    color: #fff;
 }
 
 /* 1.2 - Preloader
@@ -127,9 +127,10 @@
     border-radius: 50%;
     background: #ffffff;
     box-shadow: inset 0 0 0 .12em rgba(0,0,0,0.2);
-    background:-webkit-linear-gradient(#ea032d 50%, #353535 50%), -webkit-linear-gradient(#353535 50%, #ea032d 50%);
-    background:-webkit-linear-gradient(#ea032d 50%, #353535 50%), -webkit-linear-gradient(#353535 50%, #ea032d 50%);
-    background:linear-gradient(#ea032d 50%, #353535 50%), linear-gradient(#353535 50%, #ea032d 50%);
+    background:-webkit-linear-gradient(#0074EB 50%, #353535 50%), -webkit-linear-gradient(#353535 50%, #0074EB 50%);
+    background:-webkit-linear-gradient(#0074EB
+    50%, #353535 50%), -webkit-linear-gradient(#353535 50%, #0074EB 50%);
+    background:linear-gradient(#0074EB 50%, #353535 50%), linear-gradient(#353535 50%, #0074EB 50%);
     background-size: 50% 100%, 50% 100%;
     background-position: 0 0, 100% 0;
     background-repeat: no-repeat;
@@ -247,7 +248,7 @@ body.boxed {
 }
 .wide .page-section.color,
 .boxed .page-section.color > .container {
-    background-color: #0d1d31;
+    background-color: #0074EB;
     color: #ffffff;
 }
 .wide .page-section.image,
@@ -598,8 +599,8 @@ hr.page-divider.small:after {
 }
 .btn-theme {
     color: #ffffff;
-    background-color: #0d1d31;
-    border-color: #0d1d31;
+    background-color: #0074EB;
+    border-color: #0074EB;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -610,18 +611,18 @@ hr.page-divider.small:after {
     transition: all 0.2s ease-in-out;
 }
 .btn-theme:hover {
-    background-color: #435469;
-    border-color: #435469;
+    background-color: #00aaf1;
+    border-color: #00aaf1;
     color: #ffffff;
 }
 .color .btn-theme {
-    color: #ffffff;
-    background-color: #000000;
-    border-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
 }
 .color .btn-theme:hover {
-    background-color: #435469;
-    border-color: #435469;
+    background-color: #000000;
+    border-color: #000000;
     color: #ffffff;
 }
 .btn-theme-transparent,
@@ -1514,7 +1515,7 @@ textarea {
     font-weight: 700;
     line-height: 18px;
     text-transform: uppercase;
-    color: #ff0033;
+    color: #0074EB;
     margin: 15px 0 0 0;
 }
 .event-description .media-body span {
@@ -1747,8 +1748,8 @@ textarea {
 }
 .row.faq .nav li.active a,
 .row.faq .nav li a:hover {
-    background-color: #F34452;
-    border-color: #F34452;
+    background-color: #0074EB;
+    border-color: #0074EB;
     color: #ffffff;
 }
 .row.faq .nav li a .fa {
@@ -2846,8 +2847,8 @@ div.pp_overlay {
     line-height: 30px;
 }
 .container.gmap-background .on-gmap.color {
-    background: rgb(2,0,36);
-    background: linear-gradient(60deg, rgba(2,0,36,0.8057816876750701) 25%, rgba(8,101,144,1) 45%, rgba(0,212,255,1) 100%);
+    background: #0074EB;
+    background: #0074EB;
     color: #fefefe;
 }
 
