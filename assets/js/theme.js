@@ -239,7 +239,8 @@ var theme = function () {
         // CountDown
         initCountDown: function () {
             var austDay = new Date();
-            austDay = new Date(austDay.getFullYear() + 0, 1, 10);
+            // 0 , 2 , 25 - orignal elixir date
+            austDay = new Date(austDay.getFullYear() + 0, 2, 23);
             $('#defaultCountdown').countdown({until: austDay});
             $('#year').text(austDay.getFullYear());
         },
@@ -336,7 +337,7 @@ var theme = function () {
                 var mapOptions = {
                     scrollwheel: false,
                     zoom: 17,
-                    center: new google.maps.LatLng(28.7500749,77.1154765) // map coordinates
+                    center: new google.maps.LatLng(19.0434554,73.0247972) // map coordinates
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);

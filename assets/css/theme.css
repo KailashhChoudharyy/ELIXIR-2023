@@ -65,6 +65,22 @@
 /* font-family: 'Roboto Slab', serif; */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
 
+.elixir-nav {
+    padding: 0;
+    width: 20%;
+    position: relative;
+    top: 40px;
+
+}
+
+.acm-nav {
+    width: 200%;
+}
+
+.ticket-btn{
+    color: #fff;
+}
+
 /* 1.2 - Preloader
 /* ========================================================================== */
 
@@ -111,9 +127,10 @@
     border-radius: 50%;
     background: #ffffff;
     box-shadow: inset 0 0 0 .12em rgba(0,0,0,0.2);
-    background:-webkit-linear-gradient(#ea032d 50%, #353535 50%), -webkit-linear-gradient(#353535 50%, #ea032d 50%);
-    background:-webkit-linear-gradient(#ea032d 50%, #353535 50%), -webkit-linear-gradient(#353535 50%, #ea032d 50%);
-    background:linear-gradient(#ea032d 50%, #353535 50%), linear-gradient(#353535 50%, #ea032d 50%);
+    background:-webkit-linear-gradient(#0074EB 50%, #353535 50%), -webkit-linear-gradient(#353535 50%, #0074EB 50%);
+    background:-webkit-linear-gradient(#0074EB
+    50%, #353535 50%), -webkit-linear-gradient(#353535 50%, #0074EB 50%);
+    background:linear-gradient(#0074EB 50%, #353535 50%), linear-gradient(#353535 50%, #0074EB 50%);
     background-size: 50% 100%, 50% 100%;
     background-position: 0 0, 100% 0;
     background-repeat: no-repeat;
@@ -231,7 +248,7 @@ body.boxed {
 }
 .wide .page-section.color,
 .boxed .page-section.color > .container {
-    background-color: #F34452;
+    background-color: #0074EB;
     color: #ffffff;
 }
 .wide .page-section.image,
@@ -239,7 +256,7 @@ body.boxed {
     padding-top: 100px;
     padding-bottom: 100px;
     background-attachment: fixed;
-    background-image: url('../img/custom/backdrop.jpg');
+    background-image: url('');
     background-size: cover !important;
     background-position: 50% 0 !important;
     background-repeat: no-repeat;
@@ -254,14 +271,22 @@ body.boxed {
     position: absolute;
     top: 0; left: 0; right: 0;
     width: 100%; height: 100%;
-    background: transparent url("../img/overlay.png") 50% 0 repeat;
+    /* background: transparent url("../img/overlay.png") 50% 0 repeat; */
 }
+/* Main hero section background img */
 .page-section.background-img-slider {position: relative;}
 .wide .page-section.background-img-slider,
 .boxed .page-section.background-img-slider > .container {
-    background: transparent url("../img/custom/backdrop.jpg") 50% 0 repeat fixed !important;
+    background: transparent url("/ELIXIR ASSETS/Quantamania-bg.jpg") 50% 0 repeat fixed !important;
     background-position: 50% 0 !important;
     background-size: cover !important;
+}
+
+.bg-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 .wide .page-section.background-img-slider > .container {
     width: 100%;
@@ -574,8 +599,8 @@ hr.page-divider.small:after {
 }
 .btn-theme {
     color: #ffffff;
-    background-color: #F34452;
-    border-color: #F34452;
+    background-color: #0074EB;
+    border-color: #0074EB;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -586,18 +611,18 @@ hr.page-divider.small:after {
     transition: all 0.2s ease-in-out;
 }
 .btn-theme:hover {
-    background-color: #435469;
-    border-color: #435469;
+    background-color: #00aaf1;
+    border-color: #00aaf1;
     color: #ffffff;
 }
 .color .btn-theme {
-    color: #F34452;
+    color: #000000;
     background-color: #ffffff;
     border-color: #ffffff;
 }
 .color .btn-theme:hover {
-    background-color: #435469;
-    border-color: #435469;
+    background-color: #000000;
+    border-color: #000000;
     color: #ffffff;
 }
 .btn-theme-transparent,
@@ -740,7 +765,7 @@ textarea {
 .boxed .header > .container {
     background-color: transparent;
     position: relative;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 40px;
 }
 .sub-page .header {
@@ -788,7 +813,7 @@ textarea {
     font-weight: bold;
     margin-top: -12px;
 }
-.logo a {color: #ffffff; display: inline-block; line-height: 2em;}
+.logo a {color: #ffffff; display: inline-block; line-height: 0.5em;}
 .logo a:hover {color: #F34452;}
 .logo a .logo-hex {background-color: #F34452;}
 .logo a:hover .logo-hex {background-color: #ffffff;}
@@ -856,6 +881,7 @@ textarea {
 /* 2.3 - Navigation / superfish skin
 /* ========================================================================== */
 
+
 .navigation {float: right;}
 
 /* SUPERFISH ESSENTIAL STYLES */
@@ -873,10 +899,10 @@ textarea {
 
 /* SUPERFISH THEME SKIN */
 
-.sf-menu {margin-right: -1em; font-size: 14px; font-weight: 300; text-transform: uppercase;}
+.sf-menu {margin-right: -1em; font-size: 15px; font-weight: 700; text-transform: uppercase;}
 .sf-menu.nav > li > a:hover, /* bs3 reset */
 .sf-menu.nav > li > a:focus /* bs3 reset */ {background-color: transparent;}
-.sf-menu.nav > li > a, /*bs3 reset */ .sf-menu a {padding: 10px 15px;}
+.sf-menu.nav > li > a, /*bs3 reset */ .sf-menu a {padding: 15px 15px;}
 
 .sf-menu a {color: #ffffff;}
 .sf-menu a:hover {color: #ffffff;}
@@ -1453,6 +1479,9 @@ textarea {
     left: 0; bottom: 0;
     z-index: 11;
 }
+.event-info{
+    padding-bottom: 3%;
+}
 @media (max-width: 767px) {
     .event-description {
         display: none;
@@ -1486,7 +1515,7 @@ textarea {
     font-weight: 700;
     line-height: 18px;
     text-transform: uppercase;
-    color: #ff0033;
+    color: #0074EB;
     margin: 15px 0 0 0;
 }
 .event-description .media-body span {
@@ -1719,8 +1748,8 @@ textarea {
 }
 .row.faq .nav li.active a,
 .row.faq .nav li a:hover {
-    background-color: #F34452;
-    border-color: #F34452;
+    background-color: #0074EB;
+    border-color: #0074EB;
     color: #ffffff;
 }
 .row.faq .nav li a .fa {
@@ -2818,7 +2847,8 @@ div.pp_overlay {
     line-height: 30px;
 }
 .container.gmap-background .on-gmap.color {
-    background-color: #F34452;
+    background: #0074EB;
+    background: #0074EB;
     color: #fefefe;
 }
 
