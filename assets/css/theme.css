@@ -1501,6 +1501,7 @@ textarea {
         padding-bottom: 15px;
     }
 }
+
 .event-description {
     font-size: 14px;
     font-weight: 700;
@@ -3533,4 +3534,9 @@ body.rtl .pagination > li > a {margin: 0 0 0 10px;}
     body.rtl .navigation.opened {right: auto; left: 0;}
     body.rtl .navigation.closed .menu-toggle {right: auto; left: 15px;}
     body.rtl .navigation.opened .menu-toggle {right: auto; left: 15px;}
+}
+
+
+.credits{
+    color: #ff3737;
 }
