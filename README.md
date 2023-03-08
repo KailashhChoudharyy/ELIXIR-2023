@@ -1,2 +1,2 @@
-# ELIXIR'23-Webiste
+# ELIXIR'23-Website
 
