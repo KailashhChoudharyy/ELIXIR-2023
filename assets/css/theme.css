@@ -72,9 +72,11 @@
     top: 40px;
 
 }
-
+.third-row{
+    margin-top: 40px;
+}
 .acm-nav {
-    width: 200%;
+    width: 300%;
 }
 
 .ticket-btn{
