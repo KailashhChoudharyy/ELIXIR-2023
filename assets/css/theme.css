@@ -83,6 +83,21 @@
     color: #fff;
 }
 
+@media (max-width:991px) {
+    .dubai-spons{
+        width: 100%;
+        padding-top: 30px; ;
+    }
+    .middle-slide{
+        padding: 25% 10%;
+    }
+
+}
+
+.middle-slide{
+    padding: 2% 10%;
+}
+
 /* 1.2 - Preloader
 /* ========================================================================== */
 
@@ -279,7 +294,7 @@ body.boxed {
 .page-section.background-img-slider {position: relative;}
 .wide .page-section.background-img-slider,
 .boxed .page-section.background-img-slider > .container {
-    background: transparent url("/ELIXIR ASSETS/Quantamania-bg.jpg") 50% 0 repeat fixed !important;
+    background: transparent url("/ELIXIR ASSETS/HERO-img1.png") 30% 0 repeat fixed !important;
     background-position: 50% 0 !important;
     background-size: cover !important;
 }
@@ -976,6 +991,7 @@ textarea {
         height: 100%;
         width: 250px;
         background-color: rgba(13, 29, 49, 0.95);
+        overflow-y: scroll;
     }
     .navigation.closed {right: -250px;}
     .navigation.opened {right: 0;}
@@ -1041,9 +1057,11 @@ textarea {
     #mobile-menu {
         display: block;
         float: right;
+        /* overflow: y; */
     }
     .mobile-menu {
         display: block;
+        /* overflow-y: scroll; */
     }
 
 }
