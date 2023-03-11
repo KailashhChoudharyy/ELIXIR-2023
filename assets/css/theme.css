@@ -91,6 +91,10 @@
     .middle-slide{
         padding: 25% 10%;
     }
+    .acm-nav {
+        position: relative;
+        top: 25px;
+    }
 
 }
 
@@ -919,7 +923,7 @@ textarea {
 .sf-menu {margin-right: -1em; font-size: 15px; font-weight: 700; text-transform: uppercase;}
 .sf-menu.nav > li > a:hover, /* bs3 reset */
 .sf-menu.nav > li > a:focus /* bs3 reset */ {background-color: transparent;}
-.sf-menu.nav > li > a, /*bs3 reset */ .sf-menu a {padding: 15px 15px;}
+.sf-menu.nav > li > a, /*bs3 reset */ .sf-menu a {padding: 18px;}
 
 .sf-menu a {color: #ffffff;}
 .sf-menu a:hover {color: #ffffff;}
@@ -949,7 +953,7 @@ textarea {
 .sf-arrows > li > .sf-with-ul:focus:after,
 .sf-arrows > li:hover > .sf-with-ul:after,
 .sf-arrows > .sfHover > .sf-with-ul:after {
-    border-top-color: #F34452;
+    border-top-color: #0074EB;
 }
 
 /* ARROW RIGHT */

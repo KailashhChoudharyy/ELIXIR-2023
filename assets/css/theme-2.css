@@ -21,7 +21,7 @@
     /* For mobile phones: */
     .title {
         font-size: 50pt;
-        letter-spacing: normal;
+        /* letter-spacing: normal; */
     }
     .tagliness{
       letter-spacing: normal;
